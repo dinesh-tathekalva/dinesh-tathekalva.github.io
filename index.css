@@ -148,6 +148,10 @@ a:hover {
   width: 250px;
   max-width: 100%; }
 
+  .gallery-flex .skills {
+    width: 150px;
+    max-width: 100%; }
+
 .gallery-flex img {
   max-width: 100%;
   width: 250px; }
