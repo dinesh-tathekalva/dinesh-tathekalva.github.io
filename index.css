@@ -125,7 +125,8 @@ a:hover {
   align-items: center;
   flex-wrap: wrap;
   height: auto;
-  font-family: 'Poppins', sans-serif; }
+  font-family: 'Poppins', sans-serif; 
+  padding-left: 8%;}
 
 .gallery-flex > * {
   margin: 10px; }
