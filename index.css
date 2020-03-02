@@ -117,6 +117,13 @@ a:hover {
   color: #575656;
   margin-bottom: 9px;
   font-weight: 400;
+  position: relative; }
+
+.titles {
+  font-family: 'Playfair Display', serif;
+  color: #575656;
+  margin-bottom: 9px;
+  font-weight: 400;
   position: relative;
   margin-left: 8%; }
 
