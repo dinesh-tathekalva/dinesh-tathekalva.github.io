@@ -117,7 +117,8 @@ a:hover {
   color: #575656;
   margin-bottom: 9px;
   font-weight: 400;
-  position: relative; }
+  position: relative;
+  margin-left: 8%; }
 
 .projects {
   background: white; }
@@ -171,7 +172,7 @@ a:hover {
 .collaboration {
   background: white;
   padding: 50px 0;
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   align-items: center; }
   .collaboration .title {
@@ -364,3 +365,14 @@ a:hover {
         /* .btn:hover {
           background-color: RoyalBlue;
         } */
+
+        .animate{
+
+          width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s linear 1s;
+}
+animate:hover {
+  width: 300px;
+}
