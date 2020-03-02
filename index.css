@@ -17,7 +17,7 @@ body {
   content: "";
   width: 100%;
   clip-path: inset(0 100% 0 0);
-  background: #6269f2;
+  /* background: #6269f2; */
   height: 3px;
   bottom: -5px;
   transition: 0.3s clip-path ease; }
@@ -94,7 +94,8 @@ a:hover {
   /* padding: 38px 6.39535%; */
   color: #616060; }
   .intro a {
-    color: #6269f2; }
+    /* color: #6269f2; */
+   }
 
 .intro h1,
 .intro h2 {
@@ -328,7 +329,7 @@ a:hover {
       
       a.button1{
         display:inline-block;
-        padding:0.35em 1.2em;
+        padding: 0.05em 0.5em;
         border:0.1em solid #ECECEC;
         margin:0 0.3em 0.3em 0;
         border-radius:0.12em;
@@ -350,3 +351,16 @@ a:hover {
           margin:0.4em auto;}
          
          */
+         .btn {
+          /* background-color: DodgerBlue; */
+          border: none;
+          color: white;
+          padding: 8px 12px;
+          cursor: pointer;
+         
+        }
+        
+        /* Darker background on mouse-over */
+        /* .btn:hover {
+          background-color: RoyalBlue;
+        } */
