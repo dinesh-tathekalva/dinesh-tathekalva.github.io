@@ -99,7 +99,7 @@ a:hover {
 
 .intro h1,
 .intro h2 {
-  font-weight: 400; }
+  font-weight: 100; }
 
 .intro h2 {
   font-size: 16px;
@@ -116,7 +116,7 @@ a:hover {
   font-family: 'Lato', sans-serif;
   color: #575656;
   margin-bottom: 9px;
-  font-weight: 400;
+  font-weight: 100;
   position: relative; }
 
 .titles {
@@ -344,14 +344,13 @@ a:hover {
         box-sizing: border-box;
         text-decoration:none;
         font-family:'Roboto',sans-serif;
-        font-weight:300;
-        color:black ;
+        font-weight:100;
+        
         text-align:center;
         transition: all 0.2s;
         }
         a.button1:hover{
          color:#000000;
-         background-color:#FFFFFF;
         }
         /* @media all and (max-width:30em){
          a.button1{
