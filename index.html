@@ -17,305 +17,360 @@
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
     <!-- Title image -->
-    <link rel = "icon" href = "./saturn.svg" type = "image/x-icon">
+    <link rel="icon" href="./saturn.svg" type="image/x-icon">
 
     <title>Dinesh Tathekalva | Software Engineer</title>
 </head>
 
 <body class="bg-dark" id="body-bg">
     <!-- Main Container -->
-    <div class="container-sm">
-        <div class="jumbotron mt-4">
-            <img src="./Me.jpg" width="150" height="150" class="img img-fluid rounded float-left mr-3" alt="...">
-            <h1 class="display-4">Hi, I'm Dinesh.</h1>
-            <p class="lead">If you're wondering if I'm the character from the HBO's comedy series 'Silicon Valley', I'm
-                not. I'm a real person with the name Dinesh Tathekalva. I'm a Software Engineer, Frontend Engineer. I
-                build web and mobile applications for a tech company. I also love and study astronomy during my free
-                time.
-            </p>
-            <blockquote class="blockquote text-right">
-                <p class="mb-0">"The significant problems we have cannot be solved with the thinking used to create
-                    them."
+    <div class="container">
+        <nav id="navbar" class="navbar lead rounded navbar-light bg-light">
+            <ul class="nav ">
+                <li class="nav-item active">
+                    <a class="nav-link nav-color" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-color" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-color" href="#work">Worked at</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-color" href="#graduation">Graduation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-color" href="#contact">Get in touch with me</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div data-spy="scroll" data-target="#navbar" data-offset="0">
+        <div class="container-sm">
+
+            <div class="jumbotron mt-4">
+                <img src="./Me.jpg" width="150" height="150" class="img img-fluid rounded float-left mr-3" alt="...">
+                <h1 class="display-4">Hi, I'm Dinesh.</h1>
+                <p class="lead">If you're wondering if I'm the character from the HBO's comedy series 'Silicon Valley',
+                    I'm
+                    not. I'm a real person with the name Dinesh Tathekalva. I'm a Software Engineer, Frontend Engineer.
+                    I
+                    build web and mobile applications for a tech company. I also love and study astronomy during my free
+                    time.
                 </p>
-                <cite class="blockquote-footer" title="Source Title">Albert Einstein</cite>
-            </blockquote>
-        </div>
+                <blockquote class="blockquote text-right">
+                    <p class="mb-0">"The significant problems we have cannot be solved with the thinking used to create
+                        them."
+                    </p>
+                    <cite class="blockquote-footer" title="Source Title">Albert Einstein</cite>
+                </blockquote>
+            </div>
 
-        <div class="jumbotron">
+            <div class="jumbotron">
+                <div class="container">
+                    <h2 class="display-4" id="projects">Projects</h2>
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="list-group" id="list-tab" role="tablist">
+                                <a class="list-group-item list-group-item-action active" id="list-home-list"
+                                    data-toggle="list" href="#list-home" role="tab" aria-controls="home">Commercial
+                                    Distribution Finance</a>
+                                <a class="list-group-item list-group-item-action" id="list-profile-list"
+                                    data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Club
+                                    ordering</a>
+                                <a class="list-group-item list-group-item-action" id="list-messages-list"
+                                    data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Visa
+                                    Travel Predict</a>
+                                <a class="list-group-item list-group-item-action" id="list-settings-list"
+                                    data-toggle="list" href="#list-settings" role="tab"
+                                    aria-controls="settings">Insurance Auto Auction</a>
+                                <a class="list-group-item list-group-item-action" id="list-settings-list"
+                                    data-toggle="list" href="#list-extra" role="tab" aria-controls="settings">Stanford
+                                    Health</a>
+                                <a class="list-group-item list-group-item-action" id="list-settings-list"
+                                    data-toggle="list" href="#list-extra1" role="tab" aria-controls="settings">Credit
+                                    Card Shift</a>
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane fade show active lead" id="list-home" role="tabpanel"
+                                    aria-labelledby="list-home-list">CDF is a web-based application that provides
+                                    inventory
+                                    financing solutions, services, and intelligence to manufacturers and distributors
+                                    enabling their growth and profitability driving the uninterrupted flows of product.
+                                    The
+                                    application is a bridge between Wells Fargo and many other manufacturers and
+                                    distributors
+                                    <h5 class="tech">
+                                        Technologies used:
+                                        <small class="text-muted">React.js, Redux, ES6, HTML5, CSS3</small>
+                                    </h5>
+                                </div>
+                                <div class="tab-pane fade lead" id="list-profile" role="tabpanel"
+                                    aria-labelledby="list-profile-list">Club ordering is an internal web and mobile
+                                    application developed for the associates who work at the Samsclub for restocking the
+                                    items that are running out in the club by scanning and placing the orders. The admin
+                                    portal is a web-based application built using React.js
+                                    <h5 class="tech">
+                                        Technologies used:
+                                        <small class="text-muted">React.js, React Native, Redux, ES6, HTML5,
+                                            CSS3</small>
+                                    </h5>
+                                </div>
+                                <div class="tab-pane fade lead" id="list-messages" role="tabpanel"
+                                    aria-labelledby="list-messages-list">Visa Travel Predict is a suite of predictive
+                                    machine learning scores related to a cardholder's travel behavior that can help
+                                    banks
+                                    identify the right cardholders for marketing campaigns which is a React.js based
+                                    application. Targeted marketing campaigns could then help improve a cardholder's
+                                    travel
+                                    experience by providing more relevant offers and help increase cross border payments
+                                    <h5 class="tech">
+                                        Technologies used:
+                                        <small class="text-muted">React.js, Redux, ES6, D3.js, HTML5, CSS3</small>
+                                    </h5>
+                                </div>
+                                <div class="tab-pane fade lead" id="list-settings" role="tabpanel"
+                                    aria-labelledby="list-settings-list">Insurance Auto Auctions is a car bidding single
+                                    page application. The customer can go through the thousands of used/ totaled cars
+                                    using
+                                    fast and advanced search, bid online, and have them shipped anywhere in the united
+                                    states. The application uses .net in the back-end and React.js in the front-end
+                                    <h5 class="tech">
+                                        Technologies used:
+                                        <small class="text-muted">React.js, Redux, ES6, HTML5, CSS3, Bootstrap</small>
+                                    </h5>
+                                </div>
+                                <div class="tab-pane fade lead" id="list-extra" role="tabpanel"
+                                    aria-labelledby="list-settings-list">Stanford Health is an application that can
+                                    process
+                                    the clinical and genome data of the patient within seconds with the power of SAP
+                                    HANA in
+                                    the back-end and React.js in the front-end with Redux for state management. The
+                                    application was built on multidimensional analysis which might be a future SAP
+                                    patent
+                                    <h5 class="tech">
+                                        Technologies used:
+                                        <small class="text-muted">React.js, Redux, JavaScript, HTML5, CSS3, SAP
+                                            HANA</small>
+                                    </h5>
+                                </div>
+                                <div class="tab-pane fade lead" id="list-extra1" role="tabpanel"
+                                    aria-labelledby="list-settings-list">Credit card shift is an internal application
+                                    used
+                                    by Bank of America to change the segment of the credit card on the customer request.
+                                    The
+                                    application also handles the international transactions between Bank of America and
+                                    other banks with minimum legs between banks when there is no direct contract with
+                                    Bank
+                                    of America
+                                    <h5 class="tech">
+                                        Technologies used:
+                                        <small class="text-muted">JQuery, HTML, CSS</small>
+                                    </h5>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="jumbotron">
+                <div class="container figure-font">
+                    <h2 class="display-4" id="skills">Skills</h2>
+                    <figure class="figure figure-margin">
+                        <img src="./HTML5.svg" width="100" height="100" class="figure-img img-fluid rounded" alt="...">
+                        <figcaption class="figure-caption">HTML 5</figcaption>
+                    </figure>
+                    <figure class="figure figure-margin">
+                        <img src="./CSS3.svg" width="100" height="100" class="figure-img img-fluid rounded" alt="...">
+                        <figcaption class="figure-caption">CSS 3</figcaption>
+                    </figure>
+                    <figure class="figure figure-margin">
+                        <img src="./JS.svg" width="100" height="100" class="figure-img img-fluid rounded" alt="...">
+                        <figcaption class="figure-caption">JavaScript</figcaption>
+                    </figure>
+                    <figure class="figure figure-margin">
+                        <img src="./es6.svg" width="100" height="100" class="figure-img img-fluid rounded" alt="...">
+                        <figcaption class="figure-caption">ECMAscript 6</figcaption>
+                    </figure>
+                    <figure class="figure figure-margin">
+                        <img src="./typescript.svg" width="100" height="100" class="figure-img img-fluid rounded"
+                            alt="...">
+                        <figcaption class="figure-caption">Typescript</figcaption>
+                    </figure>
+                    <figure class="figure figure-margin">
+                        <img src="./React-icon.svg" width="100" height="100" class="figure-img img-fluid rounded"
+                            alt="...">
+                        <figcaption class="figure-caption">React.js</figcaption>
+                    </figure>
+                    <figure class="figure figure-margin">
+                        <img src="./Redux.svg" width="100" height="100" class="figure-img img-fluid rounded" alt="...">
+                        <figcaption class="figure-caption">Redux</figcaption>
+                    </figure>
+                    <figure class="figure figure-margin">
+                        <img src="./Angularjs.svg" width="100" height="100" class="figure-img img-fluid rounded"
+                            alt="...">
+                        <figcaption class="figure-caption">Angular.js</figcaption>
+                    </figure>
+                    <figure class="figure figure-margin">
+                        <img src="./Bootstrap_logo.svg" width="100" height="100" class="figure-img img-fluid rounded"
+                            alt="...">
+                        <figcaption class="figure-caption">Bootstrap</figcaption>
+                    </figure>
+                    <figure class="figure figure-margin">
+                        <img src="./MaterialUI.svg" width="100" height="100" class="figure-img img-fluid rounded"
+                            alt="...">
+                        <figcaption class="figure-caption">Material-UI</figcaption>
+                    </figure>
+                    <figure class="figure figure-margin">
+                        <img src="./Git-logo.svg" width="100" height="100" class="figure-img img-fluid rounded"
+                            alt="...">
+                        <figcaption class="figure-caption">Git</figcaption>
+                    </figure>
+                    <figure class="figure figure-margin">
+                        <img src="./Webpack.svg" width="100" height="100" class="figure-img img-fluid rounded"
+                            alt="...">
+                        <figcaption class="figure-caption">Webpack</figcaption>
+                    </figure>
+                    <figure class="figure figure-margin">
+                        <img src="./D3.svg" width="100" height="100" class="figure-img img-fluid rounded" alt="...">
+                        <figcaption class="figure-caption">D3.js</figcaption>
+                    </figure>
+                    <figure class="figure figure-margin">
+                        <img src="./Node.svg" width="100" height="100" class="figure-img img-fluid rounded" alt="...">
+                        <figcaption class="figure-caption">Node.js</figcaption>
+                    </figure>
+                    <figure class="figure figure-margin">
+                        <img src="./jira-seeklogo.com.svg" width="100" height="100" class="figure-img img-fluid rounded"
+                            alt="...">
+                        <figcaption class="figure-caption">Jira</figcaption>
+                    </figure>
+                    <figure class="figure figure-margin">
+                        <img src="./ResponsiveWebDesign.svg" width="100" height="100"
+                            class="figure-img img-fluid rounded" alt="...">
+                        <figcaption class="figure-caption">Responsive Web Design</figcaption>
+                    </figure>
+                    <figure class="figure figure-margin">
+                        <img src="./Agile.png" width="100" height="100" class="figure-img img-fluid rounded" alt="...">
+                        <figcaption class="figure-caption">Agile</figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="jumbotron">
+                <div class="container">
+                    <h2 class="display-4" id="work">I worked at</h2>
+                    <figure class="figure figure-margin">
+                        <img src="./WellsFargo.svg" width="150" height="150" class="figure-img img-fluid rounded"
+                            alt="...">
+                        <!-- <figcaption class="figure-caption">Git</figcaption> -->
+                    </figure>
+                    <figure class="figure figure-margin">
+                        <img src="./Walmart.svg" width="150" height="150" class="figure-img img-fluid rounded"
+                            alt="...">
+                        <!-- <figcaption class="figure-caption">Angularjs</figcaption> -->
+                    </figure>
+                    <figure class="figure figure-margin">
+                        <img src="./Visa.svg" width="150" height="150" class="figure-img img-fluid rounded" alt="...">
+                        <!-- <figcaption class="figure-caption">HTML 5</figcaption> -->
+                    </figure>
+                    <figure class="figure figure-margin">
+                        <img src="./IAA.svg" width="150" height="150" class="figure-img img-fluid rounded" alt="...">
+                        <!-- <figcaption class="figure-caption">Git</figcaption> -->
+                    </figure>
+                    <figure class="figure figure-margin">
+                        <img src="./SAP.svg" width="150" height="150" class="figure-img img-fluid rounded" alt="...">
+                        <!-- <figcaption class="figure-caption">Angularjs</figcaption> -->
+                    </figure>
+                    <figure class="figure figure-margin">
+                        <img src="./TCS.svg" width="150" height="150" class="figure-img img-fluid rounded" alt="...">
+                        <!-- <figcaption class="figure-caption">HTML 5</figcaption> -->
+                    </figure>
+
+                </div>
+            </div>
+
+            <div class="jumbotron">
+                <div class="container">
+                    <h2 class="display-4" id="graduation">I graduated from</h2>
+                    <figure class="figure figure-margin">
+                        <span class="display-5 lead">Masters from</span>
+                        <img src="./SJSU.png" width="300" height="300" class="figure-img img-fluid rounded" alt="...">
+                    </figure>
+                    <figure class="figure figure-margin">
+                        <span class="display-5 lead">Undergrad from</span>
+                        <img src="./SRM.svg" width="300" height="300" class="figure-img img-fluid rounded" alt="...">
+                    </figure>
+                </div>
+            </div>
+
             <div class="container">
-                <h2 class="display-4">Projects</h2>
                 <div class="row">
-                    <div class="col-4">
-                        <div class="list-group" id="list-tab" role="tablist">
-                            <a class="list-group-item list-group-item-action active" id="list-home-list"
-                                data-toggle="list" href="#list-home" role="tab" aria-controls="home">Commercial
-                                Distribution Finance</a>
-                            <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list"
-                                href="#list-profile" role="tab" aria-controls="profile">Club ordering</a>
-                            <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list"
-                                href="#list-messages" role="tab" aria-controls="messages">Visa Travel Predict</a>
-                            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list"
-                                href="#list-settings" role="tab" aria-controls="settings">Insurance Auto Auction</a>
-                            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list"
-                                href="#list-extra" role="tab" aria-controls="settings">Stanford Health</a>
-                            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list"
-                                href="#list-extra1" role="tab" aria-controls="settings">Credit Card Shift</a>
+                    <div class="col">
+                        <div class="jumbotron">
+                            <div class="container">
+                                <h2 id="contact">Social Media</h2>
+                                <div class="row">
+                                    <div class="col">
+                                        <a href="https://github.com/dinesh-tathekalva" class="social-media"
+                                            target="_blank" title="Dinesh Github"><i class="fa fa-github"></i>
+                                            Github</a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <a href="https://www.linkedin.com/in/dinesh-tathekalva" class="social-media"
+                                            target="_blank" title="Dinesh LinkedIn"><i class="fa fa-linkedin"></i></i>
+                                            LinkedIn</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-8">
-                        <div class="tab-content" id="nav-tabContent">
-                            <div class="tab-pane fade show active lead" id="list-home" role="tabpanel"
-                                aria-labelledby="list-home-list">CDF is a web-based application that provides inventory
-                                financing solutions, services, and intelligence to manufacturers and distributors
-                                enabling their growth and profitability driving the uninterrupted flows of product. The
-                                application is a bridge between Wells Fargo and many other manufacturers and
-                                distributors
-                                <h5 class="tech">
-                                    Technologies used:
-                                    <small class="text-muted">React.js, Redux, ES6, HTML5, CSS3</small>
-                                </h5>
-                            </div>
-                            <div class="tab-pane fade lead" id="list-profile" role="tabpanel"
-                                aria-labelledby="list-profile-list">Club ordering is an internal web and mobile
-                                application developed for the associates who work at the Samsclub for restocking the
-                                items that are running out in the club by scanning and placing the orders. The admin
-                                portal is a web-based application built using React.js
-                                <h5 class="tech">
-                                    Technologies used:
-                                    <small class="text-muted">React.js, React Native, Redux, ES6, HTML5, CSS3</small>
-                                </h5>
-                            </div>
-                            <div class="tab-pane fade lead" id="list-messages" role="tabpanel"
-                                aria-labelledby="list-messages-list">Visa Travel Predict is a suite of predictive
-                                machine learning scores related to a cardholder's travel behavior that can help banks
-                                identify the right cardholders for marketing campaigns which is a React.js based
-                                application. Targeted marketing campaigns could then help improve a cardholder's travel
-                                experience by providing more relevant offers and help increase cross border payments
-                                <h5 class="tech">
-                                    Technologies used:
-                                    <small class="text-muted">React.js, Redux, ES6, D3.js, HTML5, CSS3</small>
-                                </h5>
-                            </div>
-                            <div class="tab-pane fade lead" id="list-settings" role="tabpanel"
-                                aria-labelledby="list-settings-list">Insurance Auto Auctions is a car bidding single
-                                page application. The customer can go through the thousands of used/ totaled cars using
-                                fast and advanced search, bid online, and have them shipped anywhere in the united
-                                states. The application uses .net in the back-end and React.js in the front-end
-                                <h5 class="tech">
-                                    Technologies used:
-                                    <small class="text-muted">React.js, Redux, ES6, HTML5, CSS3, Bootstrap</small>
-                                </h5>
-                            </div>
-                            <div class="tab-pane fade lead" id="list-extra" role="tabpanel"
-                                aria-labelledby="list-settings-list">Stanford Health is an application that can process
-                                the clinical and genome data of the patient within seconds with the power of SAP HANA in
-                                the back-end and React.js in the front-end with Redux for state management. The
-                                application was built on multidimensional analysis which might be a future SAP patent
-                                <h5 class="tech">
-                                    Technologies used:
-                                    <small class="text-muted">React.js, Redux, JavaScript, HTML5, CSS3, SAP HANA</small>
-                                </h5>
-                            </div>
-                            <div class="tab-pane fade lead" id="list-extra1" role="tabpanel"
-                                aria-labelledby="list-settings-list">Credit card shift is an internal application used
-                                by Bank of America to change the segment of the credit card on the customer request. The
-                                application also handles the international transactions between Bank of America and
-                                other banks with minimum legs between banks when there is no direct contract with Bank
-                                of America
-                                <h5 class="tech">
-                                    Technologies used:
-                                    <small class="text-muted">JQuery, HTML, CSS</small>
-                                </h5>
-                            </div>
+                    <div class="col">
+                        <div class="jumbotron">
+                            <div class="container">
+                                <h2>Say Hi</h2>
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="lead">If you'd like to say hi or work with me<a
+                                                href="mailto:dineshreddy.t3@outlook.com" class="btn button">Drop me an
+                                                email
+                                                <i class="fa fa-envelope"></i> </a></p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="lead">If you'd like to know more about me<a
+                                                href="Dinesh_Tathekalva.pdf" class="btn button">Download resume
+                                                <i class="fa fa-download"></i> </a></p>
+                                    </div>
+                                </div>
 
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <div class="jumbotron">
-            <div class="container figure-font">
-                <h2 class="display-4">Skills</h2>
-                <figure class="figure figure-margin">
-                    <img src="./HTML5.svg" width="100" height="100" class="figure-img img-fluid rounded" alt="...">
-                    <figcaption class="figure-caption">HTML 5</figcaption>
-                </figure>
-                <figure class="figure figure-margin">
-                    <img src="./CSS3.svg" width="100" height="100" class="figure-img img-fluid rounded" alt="...">
-                    <figcaption class="figure-caption">CSS 3</figcaption>
-                </figure>
-                <figure class="figure figure-margin">
-                    <img src="./JS.svg" width="100" height="100" class="figure-img img-fluid rounded" alt="...">
-                    <figcaption class="figure-caption">JavaScript</figcaption>
-                </figure>
-                <figure class="figure figure-margin">
-                    <img src="./es6.svg" width="100" height="100" class="figure-img img-fluid rounded" alt="...">
-                    <figcaption class="figure-caption">ECMAscript 6</figcaption>
-                </figure>
-                <figure class="figure figure-margin">
-                    <img src="./typescript.svg" width="100" height="100" class="figure-img img-fluid rounded" alt="...">
-                    <figcaption class="figure-caption">Typescript</figcaption>
-                </figure>
-                <figure class="figure figure-margin">
-                    <img src="./React-icon.svg" width="100" height="100" class="figure-img img-fluid rounded" alt="...">
-                    <figcaption class="figure-caption">React.js</figcaption>
-                </figure>
-                <figure class="figure figure-margin">
-                    <img src="./Redux.svg" width="100" height="100" class="figure-img img-fluid rounded" alt="...">
-                    <figcaption class="figure-caption">Redux</figcaption>
-                </figure>
-                <figure class="figure figure-margin">
-                    <img src="./Angularjs.svg" width="100" height="100" class="figure-img img-fluid rounded" alt="...">
-                    <figcaption class="figure-caption">Angular.js</figcaption>
-                </figure>
-                <figure class="figure figure-margin">
-                    <img src="./Bootstrap_logo.svg" width="100" height="100" class="figure-img img-fluid rounded"
-                        alt="...">
-                    <figcaption class="figure-caption">Bootstrap</figcaption>
-                </figure>
-                <figure class="figure figure-margin">
-                    <img src="./MaterialUI.svg" width="100" height="100" class="figure-img img-fluid rounded" alt="...">
-                    <figcaption class="figure-caption">Material-UI</figcaption>
-                </figure>
-                <figure class="figure figure-margin">
-                    <img src="./Git-logo.svg" width="100" height="100" class="figure-img img-fluid rounded" alt="...">
-                    <figcaption class="figure-caption">Git</figcaption>
-                </figure>
-                <figure class="figure figure-margin">
-                    <img src="./Webpack.svg" width="100" height="100" class="figure-img img-fluid rounded" alt="...">
-                    <figcaption class="figure-caption">Webpack</figcaption>
-                </figure>
-                <figure class="figure figure-margin">
-                    <img src="./D3.svg" width="100" height="100" class="figure-img img-fluid rounded" alt="...">
-                    <figcaption class="figure-caption">D3.js</figcaption>
-                </figure>
-                <figure class="figure figure-margin">
-                    <img src="./Node.svg" width="100" height="100" class="figure-img img-fluid rounded" alt="...">
-                    <figcaption class="figure-caption">Node.js</figcaption>
-                </figure>
-                <figure class="figure figure-margin">
-                    <img src="./jira-seeklogo.com.svg" width="100" height="100" class="figure-img img-fluid rounded"
-                        alt="...">
-                    <figcaption class="figure-caption">Jira</figcaption>
-                </figure>
-                <figure class="figure figure-margin">
-                    <img src="./ResponsiveWebDesign.svg" width="100" height="100" class="figure-img img-fluid rounded"
-                        alt="...">
-                    <figcaption class="figure-caption">Responsive Web Design</figcaption>
-                </figure>
-                <figure class="figure figure-margin">
-                    <img src="./Agile.png" width="100" height="100" class="figure-img img-fluid rounded" alt="...">
-                    <figcaption class="figure-caption">Agile</figcaption>
-                </figure>
-            </div>
-        </div>
-
-        <div class="jumbotron">
-            <div class="container">
-                <h2 class="display-4">I worked at</h2>
-                <figure class="figure figure-margin">
-                    <img src="./WellsFargo.svg" width="150" height="150" class="figure-img img-fluid rounded" alt="...">
-                    <!-- <figcaption class="figure-caption">Git</figcaption> -->
-                </figure>
-                <figure class="figure figure-margin">
-                    <img src="./Walmart.svg" width="150" height="150" class="figure-img img-fluid rounded" alt="...">
-                    <!-- <figcaption class="figure-caption">Angularjs</figcaption> -->
-                </figure>
-                <figure class="figure figure-margin">
-                    <img src="./Visa.svg" width="150" height="150" class="figure-img img-fluid rounded" alt="...">
-                    <!-- <figcaption class="figure-caption">HTML 5</figcaption> -->
-                </figure>
-                <figure class="figure figure-margin">
-                    <img src="./IAA.svg" width="150" height="150" class="figure-img img-fluid rounded" alt="...">
-                    <!-- <figcaption class="figure-caption">Git</figcaption> -->
-                </figure>
-                <figure class="figure figure-margin">
-                    <img src="./SAP.svg" width="150" height="150" class="figure-img img-fluid rounded" alt="...">
-                    <!-- <figcaption class="figure-caption">Angularjs</figcaption> -->
-                </figure>
-                <figure class="figure figure-margin">
-                    <img src="./TCS.svg" width="150" height="150" class="figure-img img-fluid rounded" alt="...">
-                    <!-- <figcaption class="figure-caption">HTML 5</figcaption> -->
-                </figure>
-
-            </div>
-        </div>
-
-        <div class="jumbotron">
-            <div class="container">
-                <h2 class="display-4">I graduated from</h2>
-                <figure class="figure figure-margin">
-                    <span class="display-5 lead">Masters from</span>
-                    <img src="./SJSU.png" width="300" height="300" class="figure-img img-fluid rounded" alt="...">
-                </figure>
-                <figure class="figure figure-margin">
-                    <span class="display-5 lead">Undergrad from</span>
-                    <img src="./SRM.svg" width="300" height="300" class="figure-img img-fluid rounded" alt="...">
-                </figure>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="jumbotron">
-                        <div class="container">
-                            <h2>Social Media</h2>
-                            <div class="row">
-                                <div class="col">
-                                    <a href="https://github.com/dinesh-tathekalva" class="social-media" target="_blank"
-                                        title="Dinesh Github"><i class="fa fa-github"></i> Github</a>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col">
-                                    <a href="https://www.linkedin.com/in/dinesh-tathekalva" class="social-media"
-                                        target="_blank" title="Dinesh LinkedIn"><i class="fa fa-linkedin"></i></i>
-                                        LinkedIn</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="jumbotron">
-                        <div class="container">
-                            <h2>Say Hi</h2>
-                            <div class="row">
-                                <div class="col">
-                                    <p class="lead">If you'd like to say hi or work with me<a
-                                            href="mailto:dineshreddy.t3@outlook.com" class="btn button">Drop me an email
-                                            <i class="fa fa-envelope"></i> </a></p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col">
-                                    <p class="lead">If you'd like to know more about me<a
-                                            href="Dinesh_Tathekalva.pdf" class="btn button">Download resume
-                                            <i class="fa fa-download"></i> </a></p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <a href="mailto:dineshreddy.t3@outlook.com" class="btn button1"> </a>
+    </div>
+    <a href="mailto:dineshreddy.t3@outlook.com" class="btn button1"> </a>
 
 
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-            crossorigin="anonymous"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
