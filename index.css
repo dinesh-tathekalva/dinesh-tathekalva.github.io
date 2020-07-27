@@ -42,3 +42,8 @@ body{
     font-size: 1em;
     font-weight: 200;
 }
+
+.img-height{
+    height: 14em !important;
+    width: 14em !important;
+}
