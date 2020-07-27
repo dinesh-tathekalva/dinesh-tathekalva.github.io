@@ -3,16 +3,12 @@ body{
     line-height: 2em !important;
     
 }
+
 .figure-font{
     letter-spacing: 1px !important;
 }
-/* .img{
-    margin-right: 1em;
-} */
 
-.tech{
-    margin-top: 1em;
-}
+
 .figure-margin{
     margin: 1em;
 }
