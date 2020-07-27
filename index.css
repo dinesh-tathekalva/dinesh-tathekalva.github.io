@@ -36,19 +36,3 @@ body{
     height: 14em !important;
     width: 14em !important;
 }
-
-.top{
-    background-color: #FFF;
-    width: 50px;
-    height: 50px;
-    line-height: 60px;
-    text-align: center;
-    position: fixed;
-    left: 95%;
-    top: 50%;
-    border-radius: 50%;
-    cursor: pointer;
-    -webkit-box-shadow: 0 0 5px 1px rgba(0,0,0,.75);
-    -moz-box-shadow: 0 0 5px 1px rgba(0,0,0,.75);
-    box-shadow: 0 0 5px 1px rgba(0,0,0,.75)
-}
