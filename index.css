@@ -1,20 +1,10 @@
 body{
     font-family: 'Lato', sans-serif !important;
     line-height: 2em !important;
-    
 }
+
 .figure-font{
     letter-spacing: 1px !important;
-}
-/* .img{
-    margin-right: 1em;
-} */
-
-.tech{
-    margin-top: 1em;
-}
-.figure-margin{
-    margin: 1em;
 }
 
 .social-media{
@@ -33,7 +23,6 @@ body{
     letter-spacing: 1px !important;
     font-size: 1.25em;
     font-weight: 200;
-    /* position: fixed; */
 }
 .date-time{
     font-family: 'Lato', sans-serif !important;
