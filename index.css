@@ -36,3 +36,17 @@ body{
     height: 14em !important;
     width: 14em !important;
 }
+
+
+.rotate {
+    animation: rotation 6s infinite linear;
+  }
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
