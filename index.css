@@ -50,3 +50,7 @@ body{
       transform: rotate(359deg);
     }
   }
+  
+  .text-wrap {
+    width: 7rem
+  }
