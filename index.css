@@ -54,3 +54,8 @@ body{
   .text-wrap {
     width: 7rem
   }
+
+  .button{
+    text-decoration: none !important;
+  }
+
