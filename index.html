@@ -35,6 +35,7 @@
 </head>
 
 <body class="bg-dark" id="body-bg">
+    <div class="fixed-bottom" style="margin-left: 6em;;"><i class="fa fa-github"></i></div>
     <!-- Main Container -->
     <div class="container-sm">
         <!-- NAV BAR -->
@@ -56,7 +57,7 @@
                     <a class="nav-link nav-color" href="#contact">Get in touch with me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-color" href="Dinesh_Tathekalva_Resume.pdf" target="_blank">Resume</a>
+                    <a class="nav-link nav-color" href="Dinesh_Tathekalva_Resume.pdf" target="_blank" data-toggle="modal" data-target="#exampleModal">Resume</a>
                 </li>
                 <!-- Applications built -->
                 <li class="nav-item px-1">
@@ -454,11 +455,28 @@
                                 <div class="row">
                                     <div class="col">
                                         <p class="lead" id="resume">If you'd like to know more about me <button
-                                                type="button" class="btn btn-outline-secondary"><a
-                                                    href="Dinesh_Tathekalva_Resume.pdf" class="button"
-                                                    target="_blank">Resume
-                                                    <i class="fa fa-download"></i> </a>
+                                                type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#exampleModal">Resume
+                                                    <i class="fa fa-download"></i> 
                                             </button></p>
+                                    </div>
+                                </div>
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Resume</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                        </div>
+                                        <div class="modal-body" >
+                                            <embed src="Dinesh_Tathekalva_Resume.pdf" frameborder="0" width="100%" height="600px">
+                                        </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
                                     </div>
                                 </div>
                             </div>
